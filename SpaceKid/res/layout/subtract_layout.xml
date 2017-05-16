@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/subtract_layout"
+    android:background="@drawable/cartoon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android1:id="@+id/imgBtnNext"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_below="@+id/radioGroup1"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="29dp"
+        android1:src="@drawable/next" />
+
+    <RadioGroup
+        android1:id="@+id/radioGroup1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_below="@+id/txtWelcome"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="44dp" >
+
+        <RadioButton
+            android1:id="@+id/rAns1"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:checked="true"
+            android1:hint="@string/answer_1"
+            android1:textColor="#D8D8D8" />
+
+        <RadioButton
+            android1:id="@+id/rAns2"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:hint="@string/answer_2"
+            android1:textColor="#D8D8D8" />
+
+        <RadioButton
+            android1:id="@+id/rAns3"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:hint="@string/answer_3"
+            android1:textColor="#D8D8D8" />
+
+        <RadioButton
+            android1:id="@+id/rAns4"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:hint="@string/answer_4"
+            android1:textColor="#D8D8D8" />
+
+    </RadioGroup>
+
+    <TextView
+        android1:id="@+id/txtPoint"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentTop="true"
+        android1:layout_marginLeft="18dp"
+        android1:layout_marginTop="24dp"
+        android1:hint="@string/points"
+        android1:textAppearance="?android:attr/textAppearanceLarge"
+        android1:textColor="#D8D8D8" />
+
+    <TextView
+        android1:id="@+id/txtWelcome"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignRight="@+id/imgBtnNext"
+        android1:layout_below="@+id/txtPoint"
+        android1:layout_marginTop="48dp"
+        android1:gravity="left"
+        android1:hint="@string/question"
+        android1:textAlignment="gravity"
+        android1:textAppearance="?android:attr/textAppearanceLarge"
+        android1:textColor="#D8D8D8" />
+
+</RelativeLayout>

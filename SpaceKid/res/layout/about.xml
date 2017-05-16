@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/cartoon"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtNumericF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/about"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#D8D8D8" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtNumeric"
+        android:layout_marginRight="33dp"
+        android:layout_marginTop="68dp"
+        android:text="by Armando Vucic"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#D8D8D8" />
+
+    <TextView
+        android:id="@+id/txtNumeric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtNumericF"
+        android:layout_marginTop="137dp"
+        android:text="Welcome to SpaceKid Educational Game. Game is very simple to play. Just pick a math operator which you want to practice. It is mainly for kids. Check it out!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#D8D8D8" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNumericF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+</RelativeLayout>
